@@ -2,18 +2,21 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# CAN Frame Visualizer
 
-This contains everything you need to run your app locally.
+An interactive tool to visualize and edit standard CAN (Controller Area Network) frame bitstreams and waveforms.
 
-View your app in AI Studio: https://ai.studio/apps/386b1b74-285e-4a8c-be56-fd72a794e01a
+🌐 **Live demo:** https://guajun.github.io/can-frame-visualizer/
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
 2. Run the app:
    `npm run dev`
+
+## Deploy
+
+The app is automatically deployed to GitHub Pages on every push to `main` via the [deploy workflow](.github/workflows/deploy.yml). No API keys or secrets are required.
