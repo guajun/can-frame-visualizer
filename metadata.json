@@ -1,0 +1,5 @@
+{
+  "name": "CAN Frame Visualizer",
+  "description": "An interactive tool to visualize and edit standard CAN (Controller Area Network) frame bitstreams and waveforms.",
+  "requestFramePermissions": []
+}
